@@ -25,7 +25,7 @@
   },
   {
     "title": "Cinema Ticketing",
-    "desc": "Sistema de reservas de ingressos com frontend e backend.",
+    "desc": "Sistema de reservas de ingressos com frontend e backend. (Apenas para desktop)",
     "img": "cinemaTicketing.png",
     "alt": "Cinema Ticketing",
     "github": "https://github.com/renatoveludo/cinema-ticketing",
