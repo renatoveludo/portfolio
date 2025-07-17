@@ -52,7 +52,7 @@ Este repositório contém meu portfólio pessoal, desenvolvido com HTML, CSS e J
 ## 🚀 Deploy
 
 Acesse meu portfólio online:  
-🔗 [renatoveludo.github.io/portifolio](https://renatoveludo.github.io/portifolio)
+🔗 [renatoveludo.github.io/portfolio](https://renatoveludo.github.io/portfolio)
 
 ## 📫 Contato
 - 📧 Email: [matiasveludo@gmail.com](mailto:matiasveludo@gmail.com)  
