@@ -9,7 +9,7 @@ fetch('data/projects.json')
       card.className = 'project-card';
 
       card.innerHTML = `
-        <img src="../assets/img/${project.img}" alt="${project.alt}">
+        <img src="assets/img/${project.img}" alt="${project.alt}">
         <h3 ${project.i18nTitle ? `data-i18n="${project.i18nTitle}"` : ''}>${project.title}</h3>
         <p>${project.desc}</p>
         ${
