@@ -1,0 +1,52 @@
+[
+  {
+    "name": "HTML & CSS",
+    "descKey": "tech_desc1",
+    "desc": "Base para construção de interfaces web, com foco em estrutura, estilo e responsividade."
+  },
+  {
+    "name": "JavaScript",
+    "descKey": "tech_desc2",
+    "desc": "Linguagem que dá vida às páginas com interatividade, lógica e dinamismo."
+  },
+  {
+    "name": "React",
+    "descKey": "tech_desc3",
+    "desc": "Biblioteca JavaScript para criar interfaces modernas e reativas com componentes reutilizáveis."
+  },
+  {
+    "name": "TypeScript",
+    "descKey": "tech_desc4",
+    "desc": "Superset do JavaScript com tipagem estática, facilitando a manutenção e escalabilidade."
+  },
+  {
+    "name": "Angular",
+    "descKey": "tech_desc5",
+    "desc": "Framework robusto para desenvolvimento de aplicações web em larga escala com estrutura MVC."
+  },
+  {
+    "name": "Git & Terminal",
+    "descKey": "tech_desc6",
+    "desc": "Controle de versões com Git e comandos via terminal para automação e produtividade."
+  },
+  {
+    "name": "SQL",
+    "descKey": "tech_desc7",
+    "desc": "Gerenciamento de bancos de dados relacionais, consultas, inserções e estruturação de dados."
+  },
+  {
+    "name": "Node.js",
+    "descKey": "tech_desc8",
+    "desc": "Ambiente de execução JavaScript no backend, ideal para APIs e servidores escaláveis."
+  },
+  {
+    "name": "Vue.js",
+    "descKey": "tech_desc9",
+    "desc": "Framework progressivo para criação de interfaces com foco em simplicidade e desempenho."
+  },
+  {
+    "name": "Web Essentials",
+    "descKey": "tech_desc10",
+    "desc": "Fundamentos da web, incluindo funcionamento da internet, protocolos e princípios essenciais."
+  }
+]

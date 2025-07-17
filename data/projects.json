@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Landing Page",
+    "desc": "Página responsiva com técnicas avançadas de HTML e CSS.",
+    "img": "landingPage.png",
+    "alt": "Landing Page",
+    "github": "https://github.com/renatoveludo/layout_landing-page",
+    "demo": "https://renatoveludo.github.io/layout_landing-page/"
+  },
+  {
+    "title": "Game 2048",
+    "desc": "Clássico jogo utilizando JavaScript com lógica avançada.",
+    "img": "2048game.png",
+    "alt": "Game 2048",
+    "github": "https://github.com/renatoveludo/js_2048_game",
+    "demo": "https://renatoveludo.github.io/js_2048_game/"
+  },
+  {
+    "title": "Phone Catalog",
+    "desc": "Loja virtual simulada com React, favoritos e carrinho.",
+    "img": "phoneCatalog.png",
+    "alt": "Phone Catalog",
+    "github": "https://github.com/renatoveludo/react_phone-catalog",
+    "demo": "https://renatoveludo.github.io/react_phone-catalog/"
+  },
+  {
+    "title": "Cinema Ticketing",
+    "desc": "Sistema de reservas de ingressos com frontend e backend.",
+    "img": "cinemaTicketing.png",
+    "alt": "Cinema Ticketing",
+    "github": "https://github.com/renatoveludo/cinema-ticketing",
+    "demo": "https://cinema-ticketing.vercel.app/"
+  },
+  {
+    "title": "Portfólio Pessoal",
+    "i18nTitle": "portifolio_title",
+    "desc": "Portfólio pessoal responsivo, multilíngue e com foco na experiência do usuário.",
+    "img": "portifolio.png",
+    "alt": "Portfólio Pessoal",
+    "github": "https://github.com/renatoveludo/portifolio",
+    "demo": "https://renatoveludo.github.io/portifolio/"
+  },
+  {
+    "title": "Aplicativo Mobile",
+    "i18nTitle": "appMobile_title",
+    "desc": "Plataforma mobile em desenvolvimento voltada para organização pessoal, familiar e de grupos.",
+    "img": "appMobile.png",
+    "alt": "App Mobile"
+  }
+]

@@ -1,0 +1,140 @@
+header {
+  background: var(--color-background);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: var(--fontSize-1);
+  font-weight: 800;
+  background: linear-gradient(90deg, #ffffff, #00ffff, #ffffff);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientMove 3s infinite linear;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 0.5rem;
+  z-index: 1100;
+}
+
+#menu-toggle .bar {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-primary);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  width: 130px;
+  padding: 0.5rem 0.5rem;
+  z-index: 1050;
+  background: var(--color-background);
+  border: 1px solid var(--color-text);
+  border-radius: var(--border-radius);;
+}
+
+.menu li {
+  padding: 0.1rem 1rem;
+}
+
+.menu li a {
+  font-size: var(--fontSize-2);
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: 600;
+  display: block;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.menu li a:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-secondary);
+  border-bottom: 1px dashed var(--color-secondary);
+  transform: none;
+  transition: width 0.4s ease;
+}
+
+.menu li a:hover::before {
+  width: 100%;
+}
+
+.menu.active {
+  display: flex;
+}
+
+.lang-switcher button {
+  background: var(--color-background2);
+  color: var(--color-white);
+  border: 1px solid var(--color-text);
+  padding: 0.3rem 0.4rem;
+  margin-left: 0.4rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: var(--fontSize-1);
+  transition: background 0.3s, border 0.3s;
+}
+
+.lang-switcher button:hover {
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.lang-btn.active {
+  border: 1px solid var(--color-secondary);
+  color: var(--color-secondary);
+}

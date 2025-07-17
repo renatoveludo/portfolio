@@ -1,0 +1,173 @@
+@media (min-width: 768px) {
+  header .logo {
+    font-size: var(--fontSize-3);
+  }
+
+  header #menu-toggle {
+    display: none;
+  }
+
+  header .menu {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    box-shadow: none;
+    width: auto;
+    padding: 0;
+    border: none;
+  }
+
+  header .menu li a {
+    font-size: var(--fontSize-3);
+  }
+
+  header .lang-switcher {
+    margin-left: 1rem;
+  }
+
+  main .section h1 {
+    font-size: var(--fontSize-6);
+  }
+
+  main .section h2 {
+    font-size: var(--fontSize-6);
+  }
+
+  main .section p {
+    font-size: var(--fontSize-3);
+  }
+
+  main .section a {
+    font-size: var(--fontSize-2);
+  }
+
+  main .hero-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }
+
+  main .tech-card {
+    width: 220px;
+    height: 120px;
+  }
+
+  main .tech-card h3 {
+    font-size: var(--fontSize-3);
+  }
+
+  main .tech-card h4 {
+    font-size: var(--fontSize-2);
+  }
+
+  main .project-card {
+    width: 300px;
+    height: 380px;
+  }
+
+  main .project-card h3 {
+    font-size: var(--fontSize-4);
+  }
+  main .project-card p {
+    font-size: var(--fontSize-3);
+    height: 120px;
+  }
+  main .project-card a {
+    font-size: var(--fontSize-3);
+  }
+
+  main #contact p {
+    font-size: var(--fontSize-3);
+  }
+
+  main #contact a {
+    font-size: var(--fontSize-2);
+  } 
+
+  footer .container-footer p {
+    font-size: var(--fontSize-3);
+  }
+
+  footer .container-footer a {
+    font-size: var(--fontSize-2);
+  }
+}
+
+@media (min-width: 1024px) {
+  header .logo {
+    font-size: var(--fontSize-5);
+  }
+
+  header .menu li a {
+    font-size: var(--fontSize-4);
+  }
+
+  main .hero-image {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+  }
+
+  main .section h1 {
+    font-size: var(--fontSize-7);
+  }
+
+  main .section h2 {
+    font-size: var(--fontSize-7);
+  }
+
+  main .section p {
+    font-size: var(--fontSize-4);
+  }
+
+  main .section a {
+    font-size: var(--fontSize-3);
+  }
+
+  main .tech-card {
+    width: 260px;
+    height: 160px;
+  }
+
+  main .tech-card h3 {
+    font-size: var(--fontSize-4);
+  }
+
+  main .tech-card h4 {
+    font-size: var(--fontSize-3);
+  }
+
+
+  main .project-card {
+    width: 350px;
+    height: 450px;
+  }
+
+  main .project-card h3 {
+    font-size: var(--fontSize-5);
+  }
+  main .project-card p {
+    font-size: var(--fontSize-4);
+    height: 150px;
+  }
+  main .project-card a {
+    font-size: var(--fontSize-4);
+  }
+
+  main #contact p {
+    font-size: var(--fontSize-4);
+  }
+
+  main #contact a {
+    font-size: var(--fontSize-3);
+  } 
+
+  footer .container-footer p {
+    font-size: var(--fontSize-4);
+  }
+
+  footer .container-footer a {
+    font-size: var(--fontSize-3);
+  }
+}
