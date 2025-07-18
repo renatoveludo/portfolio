@@ -98,6 +98,20 @@
   box-shadow: 0 6px 18px rgba(0, 255, 255, 0.3);
 }
 
+.tech-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.tech-icon {
+  align-self: center;
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
 .tech-card h3 {
   margin-bottom: 0.5rem;
   font-size: var(--fontSize-2);
@@ -235,4 +249,9 @@
 
 #contact a:hover {
   color: var(--color-secondary);
+}
+
+.contact-info {
+  margin-bottom: 2rem;
+  text-align: center;
 }

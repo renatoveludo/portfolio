@@ -23,11 +23,14 @@
   "project_2_desc": "Classic game built with JavaScript and advanced logic.",
   "project_3_desc": "Simulated online store using React, with favorites and cart features.",
   "project_4_desc": "Ticket reservation system with both frontend and backend. (Only to Desktop)",
-  "portifolio_title": "Personal Portfolio",
+  "portfolio_title": "Personal Portfolio",
   "project_5_desc": "Responsive personal portfolio, multilingual, and focused on user experience.",
   "appMobile_title": "Mobile Application",
   "project_6_desc": "Mobile platform in development focused on personal, family, and group organization.", 
   "contact_title": "Contact",
+  "contact_paragraph_1": "I'm always open to new opportunities and collaborations. If you want to discuss a project or exchange ideas, feel free to reach out!",
+  "contact_paragraph_2": "You can find me on social media, send a 'zap', or email me directly.",
+  "phone": "Phone:",
   "rights_reserved": "All rights reserved.",
   "back_to_top": "Back to top"
 }

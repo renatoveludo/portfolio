@@ -4,14 +4,15 @@ fetch('data/projects.json')
     const container = document.querySelector('.project-grid');
     if (!container) return;
 
-    data.forEach(project => {
+    data.forEach((project, index) => {
       const card = document.createElement('div');
       card.className = 'project-card';
 
+      const descKey = `project_${index + 1}_desc`;
       card.innerHTML = `
         <img src="assets/img/${project.img}" alt="${project.alt}">
         <h3 ${project.i18nTitle ? `data-i18n="${project.i18nTitle}"` : ''}>${project.title}</h3>
-        <p>${project.desc}</p>
+        <p data-i18n="${descKey}">${project.desc}</p>
         ${
           project.github && project.demo
             ? `<div class="project-links">

@@ -23,11 +23,14 @@
   "project_2_desc": "Clássico jogo utilizando JavaScript com lógica avançada.",
   "project_3_desc": "Loja virtual simulada com React, favoritos e carrinho.",
   "project_4_desc": "Sistema de reservas de ingressos com frontend e backend. (Apenas para desktop)",
-  "portifolio_title": "Portfólio Pessoal",
+  "portfolio_title": "Portfólio Pessoal",
   "project_5_desc": "Portfólio pessoal responsivo, multilíngue e com foco na experiência do usuário.",
   "appMobile_title": "Aplicativo Mobile",
   "project_6_desc":"Plataforma mobile em desenvolvimento voltada para organização pessoal, familiar e de grupos.",
   "contact_title": "Contato",
+  "contact_paragraph_1": "Estou sempre aberto a novas oportunidades e colaborações. Se você deseja discutir um projeto ou trocar ideias, sinta-se à vontade para entrar em contato!",
+  "contact_paragraph_2": "Você pode me encontrar nas redes sociais, enviar um 'zap' ou e-mail diretamente.",
+  "phone": "Telefone:",
   "rights_reserved": "Todos os direitos reservados.",
   "back_to_top": "Voltar ao topo"
 }

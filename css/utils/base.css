@@ -12,19 +12,15 @@ html, body {
   line-height: 1.5;
   scroll-padding-top: 80px;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Links padrão */
 a {
   color: var(--color-primary);
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Listas, parágrafos, etc */
 p {
   margin-bottom: 1rem;
 }
